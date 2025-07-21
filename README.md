@@ -93,19 +93,26 @@ You now have a working local model, ready for chat.
 ## 📁 Folder Structure
 
 ```
-├── app.py              # Flask backend
-├── brain.py            # Handles model logic
+├── app.py                  # Flask backend entry point
+├── brain.py                # Core logic and chatbot flow
+├── functions/              # Modular logic handlers
+│   ├── __init__.py
+│   ├── history_func.py     # Chat history handling
+│   ├── journal_func.py     # Journal feature logic
+│   ├── memory_func.py      # Memory system logic
+│   ├── model_runner.py     # Runs model connection
+│   └── prompt.py           # Prompt templates and injection
 ├── templates/
-│   └── index.html      # UI layout
+│   ├── index.html          # Main UI layout
+│   └── history.html        # History/journal viewer page
 ├── static/
-│   └── style.css       # Styling
-├── memory.json         # Memory per session
-├── chat_history.json   # Full conversation logs
-├── Modelfile           # LLM import config
-├── demo.gif            # Demo recording
+│   ├── style.css           # UI styling
+│   └── script.js           # Frontend behavior
+├── memory.json             # Current chatbot memory state
+├── chat_history.json       # Stored conversation history
+├── Modelfile               # Ollama model import config
+├── demo.gif                # Live demo preview
 ```
-
----
 
 ## 🛠️ How to Set It Up
 

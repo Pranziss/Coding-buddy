@@ -164,6 +164,6 @@ ollama --version
 
 ## 📬 Contact
 
-Made with ❤️ by **Pranziss**
+Made with ❤️ by **yubedaoneineed/Pranziss(got suspended)**
 
 For questions or ideas, feel free to fork, star ⭐, or reach out!

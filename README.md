@@ -171,6 +171,6 @@ ollama --version
 
 ## 📬 Contact
 
-Made with ❤️ by **yubedaoneineed/Pranziss(got suspended)**
+Made with ❤️ by **Pranziss/yubedaoneineed(old alt)**
 
 For questions or ideas, feel free to fork, star ⭐, or reach out!

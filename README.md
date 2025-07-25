@@ -13,7 +13,7 @@ Before you begin I would like to say that the model I used is the best suited fo
 - 🧠 Custom memory via `memory.json`
 - 📓 Chat history saved in `chat_history.json`
 - 🧠 Uses models tested/downloaded from [LM Studio](https://lmstudio.ai/)
-- 🖥️ Built for desktop/laptop (not mobile optimized)
+- 🖥️ Built for desktop/laptop
 - 🔧 Minimal setup — great for personal/local use
 
 ---
@@ -104,6 +104,16 @@ You now have a working local model, ready for chat.
 │   ├── memory_func.py      # Memory system logic
 │   ├── model_runner.py     # Runs model connection
 │   └── prompt.py           # Prompt templates and injection
+├── routes/                 # Flask route definitions
+│   ├── ask.py
+│   ├── history.py
+│   ├── journal.py
+│   └── meta.py
+├── memory/                 # Persistent memory and session data
+│   ├── feature_feedback.json
+│   ├── model_debug.json
+│   ├── .session_summarizer.json
+│   └── user_goals.json
 ├── templates/
 │   ├── index.html          # Main UI layout
 │   └── history.html        # History/journal viewer page

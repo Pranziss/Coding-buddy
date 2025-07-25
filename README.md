@@ -2,6 +2,8 @@
 
 A lightweight(?), local chatbot app built for **desktop/laptop use** — perfect for study help, reviews, or just chatting. It runs entirely offline using open-source LLMs.
 
+This chatbot is designed to entertain and assist you in coding. Once hosted, the host will be treated as the owner and others joining will be the guests.
+
 Before you begin I would like to say that the model I used is the best suited for this project but if you wish to change it to your likes then so be it.
 ---
 

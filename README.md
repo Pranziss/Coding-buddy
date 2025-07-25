@@ -1,4 +1,4 @@
-# 📚 Personal Local Tutor Chatbot
+# 📚 Personal Coding Tutor Chatbot
 
 A lightweight(?), local chatbot app built for **desktop/laptop use** — perfect for study help, reviews, or just chatting. It runs entirely offline using open-source LLMs.
 
